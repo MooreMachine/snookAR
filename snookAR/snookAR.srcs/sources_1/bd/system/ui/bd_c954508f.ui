@@ -1,0 +1,101 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port vga_hsync -pg 1 -y 500 -defaultsOSRD
+preplace port DDR -pg 1 -y 830 -defaultsOSRD
+preplace port ov7670_pclk -pg 1 -y 1090 -defaultsOSRD
+preplace port led_config_finished -pg 1 -y 1480 -defaultsOSRD
+preplace port ov7670_xclk -pg 1 -y 1580 -defaultsOSRD
+preplace port ov7670_vsync -pg 1 -y 1290 -defaultsOSRD
+preplace port ov7670_href -pg 1 -y 1310 -defaultsOSRD
+preplace port button_debounce -pg 1 -y 1600 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 850 -defaultsOSRD
+preplace port ov7670_sioc -pg 1 -y 1500 -defaultsOSRD
+preplace port ov7670_siod -pg 1 -y 1520 -defaultsOSRD
+preplace port vga_vsync -pg 1 -y 520 -defaultsOSRD
+preplace portBus vga_b -pg 1 -y 480 -defaultsOSRD
+preplace portBus ov7670_reset -pg 1 -y 1540 -defaultsOSRD
+preplace portBus vga_r -pg 1 -y 440 -defaultsOSRD
+preplace portBus ov7670_pwdn -pg 1 -y 1560 -defaultsOSRD
+preplace portBus vga_g -pg 1 -y 460 -defaultsOSRD
+preplace portBus ov7670_data -pg 1 -y 1330 -defaultsOSRD
+preplace inst fifo_mm2s -pg 1 -lvl 6 -y 650 -defaultsOSRD
+preplace inst balls_overlay_0 -pg 1 -lvl 7 -y 480 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 1 -y 980 -defaultsOSRD
+preplace inst rst_ov7670_pclk -pg 1 -lvl 1 -y 1190 -defaultsOSRD
+preplace inst ov7670_controller_0 -pg 1 -lvl 7 -y 1530 -defaultsOSRD
+preplace inst color_detector_0 -pg 1 -lvl 3 -y 1530 -defaultsOSRD
+preplace inst vdma_s2mm_intercon -pg 1 -lvl 6 -y 1100 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 4 -y 1460 -defaultsOSRD
+preplace inst debounce_0 -pg 1 -lvl 6 -y 1590 -defaultsOSRD
+preplace inst vdma_mm2s_intercon -pg 1 -lvl 6 -y 880 -defaultsOSRD
+preplace inst vdma_s2mm -pg 1 -lvl 5 -y 1260 -defaultsOSRD
+preplace inst vdma_mm2s -pg 1 -lvl 5 -y 850 -defaultsOSRD
+preplace inst fifo_s2mm -pg 1 -lvl 4 -y 1250 -defaultsOSRD
+preplace inst axi_periph -pg 1 -lvl 2 -y 950 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 5 -y 1040 -defaultsOSRD
+preplace inst rst_vga_clk25 -pg 1 -lvl 6 -y 480 -defaultsOSRD
+preplace inst ov7670_decode_stream_0 -pg 1 -lvl 3 -y 1310 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -y 910 -defaultsOSRD
+preplace inst stream_to_vga_0 -pg 1 -lvl 7 -y 130 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 7 1 NJ
+preplace netloc fifo_mm2s_M_AXIS 1 6 1 2300
+preplace netloc ov7670_decode_stream_0_axis_out 1 3 1 1090
+preplace netloc stream_to_vga_0_blue 1 6 2 2380 310 2880
+preplace netloc ov7670_controller_0_reset 1 7 1 NJ
+preplace netloc axi_periph_M04_AXI 1 2 1 730
+preplace netloc balls_overlay_0_vsync_out 1 7 1 NJ
+preplace netloc balls_overlay_0_vga_r_out 1 7 1 NJ
+preplace netloc balls_overlay_0_vga_b_out 1 7 1 NJ
+preplace netloc stream_to_vga_0_fsync 1 4 4 1530 1140 1890J 1230 NJ 1230 2910
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 7 420 730 NJ 730 NJ 730 NJ 730 1920J 740 NJ 740 2850
+preplace netloc axi_vdma_1_M_AXI_MM2S 1 5 1 N
+preplace netloc ov7670_decode_stream_0_bram_we 1 3 1 1090
+preplace netloc microblaze_0_Clk 1 0 8 30 880 380 1190 760 1190 1120 1160 1500 720 1940 760 2360 1050 2860
+preplace netloc axi_periph_M05_AXI 1 2 5 720 370 NJ 370 NJ 370 NJ 370 2330J
+preplace netloc balls_overlay_0_hsync_out 1 7 1 NJ
+preplace netloc stream_to_vga_0_vcounter 1 6 2 2370 320 2870
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 8 30 1090 370J 1180 NJ 1180 1090J 1140 1520J 1130 1910 1220 NJ 1220 2850
+preplace netloc href_1 1 0 3 NJ 1310 NJ 1310 NJ
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 2 3 770 1120 NJ 1120 1480J
+preplace netloc fifo_generator_0_M_AXIS 1 4 1 1530
+preplace netloc axi_mem_intercon_M00_AXI 1 6 1 2390
+preplace netloc i_0_1 1 0 6 NJ 1600 NJ 1600 720J 1650 1150J 1600 NJ 1600 NJ
+preplace netloc ov7670_controller_0_config_finished 1 7 1 NJ
+preplace netloc M01_ACLK_0_1 1 0 4 20 1080 400 1210 720 1430 1100
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 1 6 390 1200 770 1150 NJ 1150 1510 970 1950 750 2320
+preplace netloc axi_vdma_1_M_AXIS_MM2S 1 5 1 1900
+preplace netloc stream_to_vga_0_vsync 1 6 2 2390 640 2920
+preplace netloc ov7670_decode_stream_0_bram_addr 1 3 1 1150
+preplace netloc ov7670_controller_0_xclk 1 7 1 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 7 1 NJ
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 2 1 750
+preplace netloc color_detector_0_bram_addr 1 3 1 1150
+preplace netloc ov7670_decode_stream_0_bram_data 1 3 1 1110
+preplace netloc debounce_0_o 1 6 1 2340
+preplace netloc ov7670_controller_0_pwdn 1 7 1 NJ
+preplace netloc d_1 1 0 3 NJ 1330 NJ 1330 NJ
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 2 3 730 790 NJ 790 NJ
+preplace netloc blk_mem_gen_0_doutb 1 2 2 780 1640 1140J
+preplace netloc stream_to_vga_0_red 1 6 2 2390 290 2890
+preplace netloc Net 1 7 1 NJ
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 1 5 420 1170 740J 1130 NJ 1130 1490J 1120 1920
+preplace netloc rst_ov7670_pclk1_peripheral_aresetn 1 6 1 2310
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 5 1 1930
+preplace netloc stream_to_vga_0_hcounter 1 6 2 2340 270 2850
+preplace netloc stream_to_vga_0_green 1 6 2 2350 260 2860
+preplace netloc stream_to_vga_0_hsync 1 6 2 2360 280 2900
+preplace netloc ov7670_controller_0_sioc 1 7 1 NJ
+preplace netloc processing_system7_0_FCLK_CLK1 1 5 2 1900 1520 NJ
+preplace netloc axi_mem_intercon_M00_AXI1 1 6 1 2310
+preplace netloc balls_overlay_0_vga_g_out 1 7 1 NJ
+preplace netloc vsync_1 1 0 3 NJ 1290 NJ 1290 NJ
+preplace netloc processing_system7_0_FCLK_CLK2 1 5 2 1890 380 2320
+preplace netloc M01_ARESETN_1 1 1 3 410 1370 740 1630 1130J
+levelinfo -pg 1 0 200 570 950 1320 1710 2130 2620 2940 -top 0 -bot 1660
+",
+}
+{
+   da_axi4_cnt: "5",
+}

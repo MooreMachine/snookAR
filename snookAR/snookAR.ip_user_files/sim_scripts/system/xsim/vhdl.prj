@@ -1,0 +1,8 @@
+vhdl xil_defaultlib  \
+"../../../bd/system/ip/system_rst_ov7670_pclk_0/sim/system_rst_ov7670_pclk_0.vhd" \
+"../../../bd/system/ip/system_rst_processing_system7_0_100M_0/sim/system_rst_processing_system7_0_100M_0.vhd" \
+"../../../bd/system/ip/system_rst_vga_clk25_0/sim/system_rst_vga_clk25_0.vhd" \
+"../../../bd/system/ip/system_vdma_mm2s_0/sim/system_vdma_mm2s_0.vhd" \
+"../../../bd/system/ip/system_vdma_s2mm_0/sim/system_vdma_s2mm_0.vhd" \
+
+nosort

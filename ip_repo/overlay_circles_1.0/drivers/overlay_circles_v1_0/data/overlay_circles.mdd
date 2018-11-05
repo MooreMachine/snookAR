@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER overlay_circles
+	OPTION supported_peripherals = (overlay_circles);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = overlay_circles;
+END DRIVER

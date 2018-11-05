@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jul 22 16:42:39 2018
+# Process ID: 3124
+# Current directory: C:/Users/HGNogueira/Desktop/vdma_overlay_hw_color_track/vdma_overlay/project_v2/project_v2.runs/synth_1
+# Command line: vivado.exe -log system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+# Log file: C:/Users/HGNogueira/Desktop/vdma_overlay_hw_color_track/vdma_overlay/project_v2/project_v2.runs/synth_1/system_wrapper.vds
+# Journal file: C:/Users/HGNogueira/Desktop/vdma_overlay_hw_color_track/vdma_overlay/project_v2/project_v2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

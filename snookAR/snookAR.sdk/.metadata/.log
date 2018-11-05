@@ -1,0 +1,78 @@
+!SESSION 2018-06-29 20:03:19.740 -----------------------------------------------
+eclipse.buildId=2018.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/HGNogueira/Desktop/vdma_overlay/project_v2/project_v2.sdk
+
+This is a continuation of log file C:\Users\HGNogueira\Desktop\vdma_overlay\project_v2\project_v2.sdk\.metadata\.bak_0.log
+Created Time: 2018-06-29 20:51:00.642
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:00.649
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248570626"} -index 0], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:00.679
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/HGNogueira/Desktop/vdma_overlay/project_v2/project_v2.sdk/system_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.080
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/HGNogueira/Desktop/vdma_overlay/project_v2/project_v2.sdk/system_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, system_wrapper_3]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.084
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.090
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.095
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248570626"} -index 0], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.123
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248570626"} -index 0], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.127
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.446
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.450
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.461
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.468
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248570626"} -index 0], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.497
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248570626"} -index 0], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.501
+!MESSAGE XSCT Command: [dow C:/Users/HGNogueira/Desktop/vdma_overlay/project_v2/project_v2.sdk/test/Debug/test.elf], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.645
+!MESSAGE XSCT command with result: [dow C:/Users/HGNogueira/Desktop/vdma_overlay/project_v2/project_v2.sdk/test/Debug/test.elf], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.649
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.655
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.743
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248570626"} -index 0], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.954
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248570626"} -index 0], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.983
+!MESSAGE XSCT Command: [con], Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-29 20:51:03.998
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-30 03:06:48.633
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-150
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-06-30 03:06:48.651
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-150
